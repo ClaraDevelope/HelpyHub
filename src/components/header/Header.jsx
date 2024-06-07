@@ -26,10 +26,7 @@ const Header = () => {
         <li className='search-container'>
           <input type='text' placeholder='Buscar...'></input>
           <button className='search-button' type='submit'>
-            <img
-              src='public/images/search-icon.jpg'
-              className='search-image'
-            ></img>
+            <img src='images/search-icon.jpg' className='search-image'></img>
           </button>
         </li>
         <li>

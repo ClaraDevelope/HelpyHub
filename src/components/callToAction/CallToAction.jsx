@@ -6,7 +6,7 @@ const CallToAction = () => {
   return (
     <section className='first-section'>
       <div className='video-container'>
-        <video src='public/video-4.mp4' autoPlay loop muted></video>
+        <video src='video-4.mp4' autoPlay loop muted></video>
       </div>
       <NavLink to='/projects'>
         <button className='link-button absolute-button'>Ver campañas</button>
