@@ -20,10 +20,7 @@ const Header = () => {
         <li className='logo'>
           <NavLink to=''>
             <h1>HelpyHub</h1>
-            <img
-              src='./public/images/exclamation-mark.png'
-              alt='exclamation-logo'
-            />
+            <img src='images/exclamation-mark.png' alt='exclamation-logo' />
           </NavLink>
         </li>
         <li className='search-container'>
