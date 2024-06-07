@@ -1,0 +1,48 @@
+.first-section {
+  position: relative;
+  width: 100%;
+}
+.video-container {
+  width: 100%;
+  border-radius: 20px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.video-container > video {
+  max-width: 70%;
+  max-height: 500px;
+  border-radius: var(--br-s);
+}
+.absolute-button {
+  padding: 15px 25px;
+  position: absolute;
+  bottom: 20px;
+  right: 350px;
+  background-color: var(--color-text-secondary);
+  color: var(--color-text-terciary);
+  transition: all 0.5s;
+}
+.absolute-button:hover {
+  outline: 2px solid var(--color-text-terciary);
+  background-color: rgba(26, 25, 25, 0.529);
+}
+@media (max-width: 630px) {
+  .absolute-button {
+    padding: 10px 20px;
+    position: inherit;
+  }
+  .first-section {
+    position: inherit;
+    padding-top: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+  }
+  .video-container > video {
+    max-width: 100%;
+    border-radius: 0;
+  }
+}

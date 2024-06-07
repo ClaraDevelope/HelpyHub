@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Jaro:opsz@6..72&family=Marvel:ital,wght@0,400;0,700;1,400;1,700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=News+Cycle:wght@400;700&family=Righteous&family=Syne+Mono&family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap');
+:root {
+  /* colors */
+  --color-text: #3e3c3c;
+  --color-text-secondary: #1a1919;
+  --color-text-terciary: #edeaea;
+  --color-button-background: #cea62f;
+  --color-blur: #eaeaea9d;
+  /* spacings */
+  --br-s: 8px;
+  --br-m: 10px;
+  --br-l: 20px;
+  --br-xl: 50%;
+}
+#root {
+  min-height: 100vh;
+  /* background-color: #ffffff; */
+  background-image: url('https://www.transparenttextures.com/patterns/grunge-wall.png');
+}
+body,
+html {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
+}
+li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
