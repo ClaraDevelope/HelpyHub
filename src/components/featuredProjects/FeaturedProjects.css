@@ -7,48 +7,9 @@
   overflow: hidden;
   margin-top: 50px;
   background-color: var(--color-button-background);
+  padding: var(--br-m);
 }
 .second-section > h2 {
   padding: 20px;
-}
-.slider {
-  height: 300px;
-  display: flex;
-  align-items: center;
-  width: 100%;
-  overflow-x: scroll;
-  overflow-y: hidden;
-}
-.slider::-webkit-scrollbar {
-  width: 12px;
-  height: 12px;
-}
-.slider::-webkit-scrollbar-button {
-  width: 0px;
-  height: 0px;
-}
-.slider::-webkit-scrollbar-thumb {
-  background: #e1e1e1;
-  border: 0px none #ffffff;
-  border-radius: 50px;
-}
-.slider::-webkit-scrollbar-thumb:hover {
-  background: #ffffff;
-}
-.slider::-webkit-scrollbar-thumb:active {
-  background: #fffafa;
-}
-.slider::-webkit-scrollbar-track {
-  background: #3e3e3e;
-  border: 0px none #ffffff;
-  border-radius: 54px;
-}
-.slider::-webkit-scrollbar-track:hover {
-  background: #666666;
-}
-.slider::-webkit-scrollbar-track:active {
-  background: #30303083;
-}
-.slider::-webkit-scrollbar-corner {
-  background: transparent;
+  color: var(--color-text);
 }

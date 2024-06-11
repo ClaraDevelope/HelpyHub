@@ -1,6 +1,5 @@
 .card {
   position: relative;
-  cursor: pointer;
   margin: 25px;
 }
 
@@ -13,6 +12,7 @@
   height: 300px;
   padding: 20px;
   object-fit: contain;
+  cursor: pointer;
 }
 
 .card > h3 {

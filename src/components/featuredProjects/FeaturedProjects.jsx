@@ -1,22 +1,16 @@
 import React from 'react'
 import { PROJECTS } from '../../data/data'
-import Card from '../card/Card'
 import './FeaturedProjects.css'
-
+import Carrusel from '../carrusel/Carrusel'
 const FeaturedProjects = () => {
+  console.log('Soy las campañas destacadas y me renderizo')
   const filteredProjects = PROJECTS.filter((project) => {
-    // console.log(project.etiquetas.includes('destacado'))
     return project.etiquetas.includes('destacado')
   })
-
   return (
     <section className='second-section'>
       <h2>Campañas destacadas:</h2>
-      <div className='slider'>
-        {filteredProjects.map((project) => (
-          <Card project={project} key={project.id} />
-        ))}
-      </div>
+      <Carrusel projects={filteredProjects} />
     </section>
   )
 }
