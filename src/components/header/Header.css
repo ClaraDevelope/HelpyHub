@@ -13,6 +13,7 @@ header {
   flex-wrap: wrap;
   background: transparent;
   transition: ease-in-out 0.3s;
+  margin-bottom: 2rem;
 }
 .header.scrolled {
   background: var(--color-blur);
@@ -80,8 +81,14 @@ header {
 .link-button:hover {
   outline: 2px solid var(--color-text-secondary);
 }
+
+@media (max-width: 800px) {
+  .link-button {
+    margin-bottom: 1rem;
+  }
+}
 @media (max-width: 600px) {
-  .logo {
-    margin: 10px 50px;
+  header {
+    margin-bottom: 2rem;
   }
 }

@@ -1,0 +1,113 @@
+.help-form {
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.482);
+  background-color: #0b4f6c8a;
+  margin: 30px auto;
+  max-width: 600px;
+  min-height: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 20px;
+  padding: 20px;
+  border-radius: 10px;
+  color: var(--color-text-terciary);
+  font-weight: 500;
+}
+
+.help-form-label > input,
+.help-form-label > select,
+.help-form-label > textarea {
+  height: 40px;
+  margin-top: 8px;
+  background: var(--color-text-terciary);
+  border-radius: 8px;
+  padding: 10px 20px;
+  border: none;
+  margin-left: 20px;
+  outline: none;
+}
+
+.help-form-label > input:focus {
+  outline: 2px solid var(--color-button-background);
+}
+
+.name-surname-container,
+.birth-email-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 50px;
+}
+
+.topics-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+}
+
+.topic-options {
+  display: grid;
+  gap: 10px;
+}
+
+.topic-options {
+  margin: 10px;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.send {
+  max-width: 200px;
+  padding: 10px 20px;
+  border-radius: 8px;
+  border: none;
+  align-self: center;
+  margin-top: 2.5rem;
+  font-size: 15px;
+}
+input[type='checkbox'] {
+  width: 25px;
+  height: 25px;
+  margin: 10px;
+  accent-color: var(--color-checkbox);
+}
+.help-form-label > select {
+  margin-left: 10px;
+}
+.economic-details {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  margin-top: 20px;
+}
+.help-form-label {
+  width: 100%;
+}
+.help-form-label > textarea {
+  width: 100%;
+  height: 150px;
+  outline: none;
+  border-radius: 8px;
+  border: none;
+  margin: 20px auto;
+}
+.help-form-label > textarea:focus {
+  outline: 2px solid var(--color-button-background);
+}
+
+@media (max-width: 768px) {
+  .name-surname-container,
+  .birth-email-container {
+    grid-template-columns: 1fr;
+    gap: 50px;
+  }
+}
+
+/* background-color: #1e4a7aa2; */
+/* background-color: #1b5e1f98; */
+/* background-color: #cea62fcf; */
+/* background-color: #4527a08d; */
+/* background-color: #1a4c3e9d; */

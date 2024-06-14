@@ -13,7 +13,7 @@ const Footer = () => {
             <i className='fab fa-facebook'></i>
           </a>
           <a href='#'>
-            <i className='fab fa-twitter'></i>
+            <i className='fab fa-linkedin'></i>
           </a>
           <a href='#'>
             <i className='fab fa-instagram'></i>

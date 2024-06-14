@@ -1,0 +1,27 @@
+.titles-container {
+  width: 100%;
+  margin-top: 2rem;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  text-align: center;
+}
+.title {
+  color: var(--color-text-secondary);
+  font-weight: bold;
+  font-size: 30px;
+}
+.subtitle {
+  color: var(--color-text);
+  font-weight: bold;
+  font-size: 20px;
+}
+@media (max-width: 600px) {
+  .titles-container {
+    margin-top: 7rem;
+  }
+}

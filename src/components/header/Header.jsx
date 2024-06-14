@@ -29,7 +29,7 @@ const Header = () => {
             <img src='images/search-icon.jpg' className='search-image'></img>
           </button>
         </li>
-        <li>
+        <li className='button-container'>
           <NavLink to='formPage'>
             <button className='link-button'>Colabora YA!</button>
           </NavLink>
