@@ -13,10 +13,18 @@
   color: var(--color-text-terciary);
   font-weight: 500;
 }
-
+.adress {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+.adress > input {
+  flex-grow: 1;
+}
 .help-form-label > input,
 .help-form-label > select,
-.help-form-label > textarea {
+.help-form-label > textarea,
+.adress > input {
   height: 40px;
   margin-top: 8px;
   background: var(--color-text-terciary);

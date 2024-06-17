@@ -1,6 +1,6 @@
 import React, { useRef } from 'react'
 import './Header.css'
-import useScrollEffect from '../../hooks/useScrollEffect'
+import useScrollEffect from '../../hooks/custom/useScrollEffect'
 import { NavLink } from 'react-router-dom'
 const Header = () => {
   console.log('Soy el header y me estoy renderizando')
