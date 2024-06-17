@@ -35,3 +35,9 @@
 .card:hover .img-container > img {
   opacity: 0.4;
 }
+@media (max-width: 600px) {
+  .card > .img-container > img {
+    width: 300px;
+    height: 250px;
+  }
+}

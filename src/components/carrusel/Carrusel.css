@@ -42,3 +42,8 @@
 .slider::-webkit-scrollbar-corner {
   background: transparent;
 }
+@media (max-width: 600px) {
+  .slider {
+    width: 100%;
+  }
+}
