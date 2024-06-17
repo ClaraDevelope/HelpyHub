@@ -55,15 +55,8 @@
 
 .topic-options {
   display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
   gap: 10px;
-}
-
-.topic-options {
-  margin: 10px;
-  width: 100%;
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
 }
 
 .send {
@@ -113,9 +106,3 @@ input[type='checkbox'] {
     gap: 50px;
   }
 }
-
-/* background-color: #1e4a7aa2; */
-/* background-color: #1b5e1f98; */
-/* background-color: #cea62fcf; */
-/* background-color: #4527a08d; */
-/* background-color: #1a4c3e9d; */

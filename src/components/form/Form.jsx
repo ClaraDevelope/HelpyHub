@@ -1,6 +1,7 @@
 import React from 'react'
 import './Form.css'
 import useFormReducer from '../../hooks/react/useFormReducer'
+import { PROJECTS } from '../../data/data'
 
 const Form = () => {
   const { state, setFieldValue, resetForm } = useFormReducer()
@@ -72,26 +73,25 @@ const Form = () => {
       <div className='topics-container'>
         <label className='help-form-label'>Ámbitos de ayuda:</label>
         <div className='topic-options'>
-          <label className='help-form-label'>
-            <input
-              type='checkbox'
-              value='human rights'
-              checked={state.topics.includes('human rights')}
-              onChange={handleCheckboxChange}
-            />
-            Derechos Humanos
-          </label>
-          <label className='help-form-label'>
-            <input
-              type='checkbox'
-              value='women victims of gender violence'
-              checked={state.topics.includes(
-                'women victims of gender violence'
-              )}
-              onChange={handleCheckboxChange}
-            />
-            Violencia de género
-          </label>
+          {/* Iterar sobre las etiquetas de los proyectos */}
+          {PROJECTS.reduce((allTags, project) => {
+            project.etiquetas.forEach((tag) => {
+              if (!allTags.includes(tag)) {
+                allTags.push(tag)
+              }
+            })
+            return allTags
+          }, []).map((tag) => (
+            <label key={tag}>
+              <input
+                type='checkbox'
+                value={tag}
+                checked={state.topics.includes(tag)}
+                onChange={handleCheckboxChange}
+              />
+              {tag}
+            </label>
+          ))}
         </div>
       </div>
       <label className='help-form-label'>
