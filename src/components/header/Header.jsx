@@ -30,7 +30,7 @@ const Header = () => {
           </button>
         </li>
         <li className='button-container'>
-          <NavLink to='formPage'>
+          <NavLink to='form-search-project'>
             <button className='link-button'>Colabora YA!</button>
           </NavLink>
         </li>

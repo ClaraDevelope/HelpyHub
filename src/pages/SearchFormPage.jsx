@@ -2,7 +2,7 @@ import React from 'react'
 import Form from '../components/form/Form'
 import Titles from '../components/titles/Titles'
 
-const HelpFormPage = () => {
+const SearchFormPage = () => {
   return (
     <>
       <Titles
@@ -14,4 +14,4 @@ const HelpFormPage = () => {
   )
 }
 
-export default HelpFormPage
+export default SearchFormPage

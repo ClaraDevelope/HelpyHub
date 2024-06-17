@@ -20,11 +20,12 @@ export const PROJECTS = [
     online: true,
     lugarDesarrollo: 'Palestina',
     web: 'https://unrwa.es/',
-    img: 'https://i.pinimg.com/564x/59/03/27/5903279462acb00dca3cb2a96f81a074.jpg'
+    img: 'https://i.pinimg.com/564x/d9/c9/ee/d9c9ee9c78b0755caec627e21c338090.jpg'
+    // img: 'https://i.pinimg.com/564x/59/03/27/5903279462acb00dca3cb2a96f81a074.jpg'
   },
   {
     id: uuidv4(),
-    nombreCampaña: 'BDS Israel',
+    nombreCampaña: 'BDS',
     nombreEntidad: 'RESCOP',
     resumenProyecto:
       'Llevamos casi un año viviendo un genocidio en directo contra el pueblo palestino, con ataques militares indiscriminados que han causado la muerte de miles de civiles y la destrucción de hogares e infraestructuras esenciales en Gaza y Cisjordania. Los responsables de estos crímenes siguen impunes, mientras la comunidad internacional, incluyendo algunos gobiernos europeos, no respeta los acuerdos y leyes internacionales que deberían proteger a los palestinos. Las violaciones sistemáticas de derechos humanos y las continuas agresiones no encuentran freno ni justicia en los tribunales internacionales. En respuesta a esta situación, la campaña de Boicot, Sanciones y Desinversión (BDS) es una iniciativa global liderada por la sociedad civil palestina desde 2005. Consiste en: Boicot: Evitar el consumo de productos y servicios israelíes, así como la participación en eventos culturales y académicos patrocinados por el Estado de Israel. Sanciones: Presionar a los gobiernos y organizaciones internacionales para que impongan sanciones diplomáticas, económicas y militares contra Israel.  Desinversión: Incentivar a instituciones y empresas a retirar sus inversiones de compañías que apoyan o se benefician de la ocupación israelí y la violación de derechos humanos. El objetivo del BDS es obligar a Israel a cumplir con el derecho internacional, poner fin a la ocupación y colonización de todas las tierras árabes, garantizar el derecho de retorno de los refugiados palestinos y reconocer los derechos fundamentales de los ciudadanos árabes-palestinos de Israel.',
@@ -81,7 +82,7 @@ export const PROJECTS = [
     online: true,
     lugarDesarrollo: 'Lugar donde se desarrolla el Proyecto 2',
     web: '',
-    img: ''
+    img: 'https://i.pinimg.com/564x/86/0c/7a/860c7a25a46f8a3360e25c3413f3f0c7.jpg'
   },
   {
     id: uuidv4(),
@@ -93,7 +94,7 @@ export const PROJECTS = [
     online: true,
     lugarDesarrollo: 'Lugar donde se desarrolla el Proyecto 3',
     web: '',
-    img: ''
+    img: 'https://i.pinimg.com/564x/86/0c/7a/860c7a25a46f8a3360e25c3413f3f0c7.jpg'
   },
   {
     id: uuidv4(),
@@ -105,7 +106,7 @@ export const PROJECTS = [
     online: false,
     lugarDesarrollo: 'Lugar donde se desarrolla el Proyecto 1',
     web: '',
-    img: ''
+    img: 'https://i.pinimg.com/564x/86/0c/7a/860c7a25a46f8a3360e25c3413f3f0c7.jpg'
   },
   {
     id: uuidv4(),
@@ -117,7 +118,7 @@ export const PROJECTS = [
     online: true,
     lugarDesarrollo: 'Lugar donde se desarrolla el Proyecto 2',
     web: '',
-    img: ''
+    img: 'https://i.pinimg.com/564x/86/0c/7a/860c7a25a46f8a3360e25c3413f3f0c7.jpg'
   },
   {
     id: uuidv4(),
@@ -129,7 +130,7 @@ export const PROJECTS = [
     online: true,
     lugarDesarrollo: 'Lugar donde se desarrolla el Proyecto 3',
     web: '',
-    img: ''
+    img: 'https://i.pinimg.com/564x/86/0c/7a/860c7a25a46f8a3360e25c3413f3f0c7.jpg'
   },
   {
     id: uuidv4(),
@@ -141,7 +142,7 @@ export const PROJECTS = [
     online: false,
     lugarDesarrollo: 'Lugar donde se desarrolla el Proyecto 1',
     web: '',
-    img: ''
+    img: 'https://i.pinimg.com/564x/86/0c/7a/860c7a25a46f8a3360e25c3413f3f0c7.jpg'
   },
   {
     id: uuidv4(),
@@ -153,7 +154,7 @@ export const PROJECTS = [
     online: true,
     lugarDesarrollo: 'Lugar donde se desarrolla el Proyecto 2',
     web: '',
-    img: ''
+    img: 'https://i.pinimg.com/564x/86/0c/7a/860c7a25a46f8a3360e25c3413f3f0c7.jpg'
   },
   {
     id: uuidv4(),
@@ -165,7 +166,7 @@ export const PROJECTS = [
     online: true,
     lugarDesarrollo: 'Lugar donde se desarrolla el Proyecto 3',
     web: '',
-    img: ''
+    img: 'https://i.pinimg.com/564x/86/0c/7a/860c7a25a46f8a3360e25c3413f3f0c7.jpg'
   },
   {
     id: uuidv4(),
@@ -177,7 +178,7 @@ export const PROJECTS = [
     online: false,
     lugarDesarrollo: 'Lugar donde se desarrolla el Proyecto 1',
     web: '',
-    img: ''
+    img: 'https://i.pinimg.com/564x/86/0c/7a/860c7a25a46f8a3360e25c3413f3f0c7.jpg'
   },
   {
     id: uuidv4(),
@@ -189,7 +190,7 @@ export const PROJECTS = [
     online: true,
     lugarDesarrollo: 'Lugar donde se desarrolla el Proyecto 2',
     web: '',
-    img: ''
+    img: 'https://i.pinimg.com/564x/86/0c/7a/860c7a25a46f8a3360e25c3413f3f0c7.jpg'
   },
   {
     id: uuidv4(),
@@ -201,7 +202,7 @@ export const PROJECTS = [
     online: true,
     lugarDesarrollo: 'Lugar donde se desarrolla el Proyecto 3',
     web: '',
-    img: ''
+    img: 'https://i.pinimg.com/564x/86/0c/7a/860c7a25a46f8a3360e25c3413f3f0c7.jpg'
   },
   {
     id: uuidv4(),
@@ -213,7 +214,7 @@ export const PROJECTS = [
     online: false,
     lugarDesarrollo: 'Lugar donde se desarrolla el Proyecto 1',
     web: '',
-    img: ''
+    img: 'https://i.pinimg.com/564x/86/0c/7a/860c7a25a46f8a3360e25c3413f3f0c7.jpg'
   },
   {
     id: uuidv4(),
@@ -225,7 +226,7 @@ export const PROJECTS = [
     online: true,
     lugarDesarrollo: 'Lugar donde se desarrolla el Proyecto 2',
     web: '',
-    img: ''
+    img: 'https://i.pinimg.com/564x/86/0c/7a/860c7a25a46f8a3360e25c3413f3f0c7.jpg'
   },
   {
     id: uuidv4(),
@@ -237,6 +238,6 @@ export const PROJECTS = [
     online: true,
     lugarDesarrollo: 'Lugar donde se desarrolla el Proyecto 3',
     web: '',
-    img: ''
+    img: 'https://i.pinimg.com/564x/86/0c/7a/860c7a25a46f8a3360e25c3413f3f0c7.jpg'
   }
 ]

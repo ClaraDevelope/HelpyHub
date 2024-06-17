@@ -1,5 +1,5 @@
 import React, { useRef, useEffect } from 'react'
-import Card from '../card/Card'
+import FeaturedCard from '../featuredCard/FeaturedCard'
 import './Carrusel.css'
 
 const Carrusel = ({ projects }) => {
@@ -30,7 +30,7 @@ const Carrusel = ({ projects }) => {
   return (
     <div className='slider' ref={sliderRef}>
       {projects.map((project) => (
-        <Card project={project} key={project.id} />
+        <FeaturedCard project={project} key={project.id} />
       ))}
     </div>
   )

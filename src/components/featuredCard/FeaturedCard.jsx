@@ -1,10 +1,10 @@
 import React from 'react'
-import './Card.css'
+import './FeaturedCard.css'
 
-const Card = ({ project }) => {
+const featuredCard = ({ project }) => {
+  // console.log(project)
   return (
     <div className='card'>
-      {/* {console.log(project)} */}
       <h3>{project.nombreCampaña}</h3>
       <div className='img-container'>
         <img src={project.img} alt={project.nombreCampaña} />
@@ -13,4 +13,4 @@ const Card = ({ project }) => {
   )
 }
 
-export default Card
+export default featuredCard
