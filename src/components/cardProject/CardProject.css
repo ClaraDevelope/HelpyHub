@@ -1,4 +1,5 @@
 .projects-container {
+  margin: 2rem auto;
   width: 100%;
   /* display: grid;
   grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
@@ -37,4 +38,10 @@
 .img-card-container > img {
   width: 100%;
   object-fit: contain;
+}
+@media (max-width: 320px) {
+  .projects-container {
+    margin-top: 7rem;
+    column-gap: 0;
+  }
 }
