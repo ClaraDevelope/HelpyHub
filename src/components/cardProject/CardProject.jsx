@@ -5,6 +5,7 @@ const CardProject = ({ project }) => {
   return (
     <div className='card-container'>
       <h3>{project.nombreCampaña}</h3>
+      <button className='link-button'>+ info</button>
       <div className='img-card-container'>
         <img src={project.img} alt={project.nombreCampaña} />
       </div>

@@ -1,19 +1,25 @@
 .projects-container {
   margin: 2rem auto;
   width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
   /* display: grid;
   grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
   gap: 10px; */
-  columns: 5 320px;
-  column-gap: 0.5rem;
+  /* columns: 5 320px;
+  column-gap: 0.5rem; */
 }
 .card-container {
   position: relative;
   max-width: 350px;
   max-height: 350px;
-  cursor: pointer;
 }
-.card-container > h3 {
+
+.card-container > h3,
+.card-container > button {
   position: absolute;
   top: 50%;
   left: 50%;
@@ -24,13 +30,24 @@
   -webkit-text-stroke: 1px var(--color-text-secondary);
   text-align: center;
 }
-.card-container:hover > h3 {
+.card-container > button {
+  top: 85%;
+  left: 80%;
+  font-size: 16px;
+  width: 90px;
+  padding: 8px 10px;
+}
+
+.card-container:hover > h3,
+.card-container:hover > button {
   opacity: 1;
   z-index: 457867;
 }
+
 .card-container:hover .img-card-container > img {
   opacity: 0.4;
 }
+
 .img-card-container {
   width: 100%;
 }
@@ -39,9 +56,15 @@
   width: 100%;
   object-fit: contain;
 }
+
 @media (max-width: 320px) {
   .projects-container {
     margin-top: 7rem;
     column-gap: 0;
+  }
+  .card-container > button {
+    top: 85%;
+    left: 83%;
+    font-size: 12px;
   }
 }
