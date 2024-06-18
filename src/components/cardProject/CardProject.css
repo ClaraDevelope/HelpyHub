@@ -20,7 +20,7 @@
 }
 
 .card-container > h3,
-.card-container > button {
+.card-button {
   position: absolute;
   top: 50%;
   left: 50%;
@@ -31,19 +31,19 @@
   -webkit-text-stroke: 1px var(--color-text-secondary);
   text-align: center;
 }
-.card-container > button {
+.card-button {
   top: 85%;
   left: 80%;
   font-size: 13px;
   width: 90px;
   font-weight: 300;
 }
-.card-container > button:hover {
+.card-button:hover {
   outline: 1.7px solid var(--color-text-secondary);
 }
 
 .card-container:hover > h3,
-.card-container:hover > button {
+.card-container:hover .card-button {
   opacity: 1;
   z-index: 457867;
 }

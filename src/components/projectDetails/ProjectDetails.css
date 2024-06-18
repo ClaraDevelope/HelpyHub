@@ -1,0 +1,39 @@
+/* Estos son los estilos de projects-container (no es la seccion en la que estás aquí. Esa es .project-details-section. Cuando acabes de dar estilos a toda esta página, borra este selector para no hacerte lío. Lo pongo para que veas los estilos por defecto que se están aplicando */
+.projects-container {
+  min-height: 61.9vh;
+  margin: 2rem auto;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+/* .project-details-section {
+  margin: 2rem;
+} */
+.project-details {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+}
+
+.image-project-ontainer {
+  width: 400px;
+  height: auto;
+}
+.image-project-ontainer > img {
+  width: 100%;
+  object-fit: cover;
+}
+.project-details > p {
+  max-width: 650px;
+  font-size: 18px;
+  color: var(--color-text-secondary);
+}
+.search-container > span {
+  position: relative;
+  bottom: 10px;
+  font-weight: bold;
+}

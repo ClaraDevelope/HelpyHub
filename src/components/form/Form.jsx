@@ -62,7 +62,7 @@ const Form = () => {
           />
         </label>
       </div>
-      <label className='adress'>
+      <label className='adress help-form-label'>
         Dirección:
         <input
           type='text'
