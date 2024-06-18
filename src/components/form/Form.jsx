@@ -73,7 +73,7 @@ const Form = () => {
       <div className='topics-container'>
         <label className='help-form-label'>Ámbitos de ayuda:</label>
         <div className='topic-options'>
-          {/* Iterar sobre las etiquetas de los proyectos */}
+          {/* Itero sobre las etiquetas de los proyectos */}
           {PROJECTS.reduce((allTags, project) => {
             project.etiquetas.forEach((tag) => {
               if (!allTags.includes(tag)) {

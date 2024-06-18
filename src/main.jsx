@@ -21,6 +21,10 @@ ReactDOM.createRoot(document.getElementById('root')).render(
             path='/projects'
             element={<AllProjects projects={PROJECTS} />}
           />
+          <Route
+            path='/projects/search/:searchValue'
+            element={<AllProjects />}
+          />
           <Route path='/project/:id' element={<Project />} />
           <Route path='*' element={<NotFound />} />
         </Route>
