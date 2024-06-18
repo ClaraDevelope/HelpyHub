@@ -1,4 +1,5 @@
 .projects-container {
+  min-height: 61.9vh;
   margin: 2rem auto;
   width: 100%;
   display: flex;
@@ -33,9 +34,12 @@
 .card-container > button {
   top: 85%;
   left: 80%;
-  font-size: 16px;
+  font-size: 13px;
   width: 90px;
-  padding: 8px 10px;
+  font-weight: 300;
+}
+.card-container > button:hover {
+  outline: 1.7px solid var(--color-text-secondary);
 }
 
 .card-container:hover > h3,

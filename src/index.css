@@ -15,11 +15,13 @@
   --br-xl: 50%;
 }
 #root {
-  min-height: 100vh;
+  /* min-height: 100vh; */
   background-image: url('https://www.transparenttextures.com/patterns/grunge-wall.png');
 }
 body,
 html {
+  min-height: 100vh;
+  position: relative;
   margin: 0;
   padding: 0;
   overflow-x: hidden;

@@ -10,6 +10,7 @@ const Header = () => {
   const handleSubmit = () => {
     const searchValue = searchInput.current.value
     navigate(`/projects/search/${searchValue}`)
+    searchInput.current.value = ''
   }
 
   console.log('Soy el header y me estoy renderizando')

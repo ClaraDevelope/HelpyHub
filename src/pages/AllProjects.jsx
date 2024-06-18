@@ -7,12 +7,15 @@ import { PROJECTS } from '../data/data'
 const AllProjects = ({ projects = PROJECTS }) => {
   const { searchValue } = useParams()
   const filteredProjects = searchValue ? filterProjects(searchValue) : projects
-
   return (
     <section className='projects-container'>
-      {filteredProjects.map((project) => (
-        <CardProject project={project} key={project.id} />
-      ))}
+      {filteredProjects.length > 0 ? (
+        filteredProjects.map((project) => (
+          <CardProject project={project} key={project.id} />
+        ))
+      ) : (
+        <p>No se han encontrado resultados para : "{searchValue}"</p>
+      )}
     </section>
   )
 }
