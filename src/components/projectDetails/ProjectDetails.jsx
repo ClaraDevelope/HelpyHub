@@ -1,6 +1,7 @@
 import React from 'react'
 import './ProjectDetails.css'
 import DefinedSearchBar from '../definedSearchBar/DefinedSearchBar'
+import Reactions from '../reactions/Reactions'
 
 const ProjectDetails = ({ project }) => {
   return (
@@ -9,7 +10,9 @@ const ProjectDetails = ({ project }) => {
       <div className='image-project-ontainer'>
         <img src={project.img} alt={project.nombreCampaña} />
       </div>
+
       <p>{project.resumenProyecto}</p>
+      <Reactions />
       <DefinedSearchBar value={project.nombreCampaña} />
     </div>
   )
