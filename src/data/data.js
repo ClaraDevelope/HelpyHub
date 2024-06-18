@@ -1,7 +1,6 @@
 // https://www.guiaongs.org/directorio/
 // change.org
 // hacesfalta.org
-// conectarlo al buscador de google con la api que viste el otro dia para buscar info sobre la situación social de ese proyecto, con la forma de escribirlo ya predefinida para que solo tengan que dar a un click? Eso sí, que se abra google en pestaá nueva, no recojas datos ni los pintes ni te líes ahí. VIDEO EXPLICATIVO: https://www.youtube.com/watch?v=g0POKoSksic
 import { v4 as uuidv4 } from 'uuid'
 export const PROJECTS = [
   {

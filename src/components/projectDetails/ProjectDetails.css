@@ -10,13 +10,18 @@
   gap: 2rem;
 }
 /* .project-details-section {
-  margin: 2rem;
+  align-items: center;
 } */
 .project-details {
   display: flex;
   flex-direction: column;
+  margin: 50px;
   align-items: center;
   gap: 2rem;
+}
+.project-details > h2 {
+  width: 80%;
+  text-align: center;
 }
 
 .image-project-ontainer {
@@ -28,12 +33,8 @@
   object-fit: cover;
 }
 .project-details > p {
+  width: 90%;
   max-width: 650px;
   font-size: 18px;
   color: var(--color-text-secondary);
-}
-.search-container > span {
-  position: relative;
-  bottom: 10px;
-  font-weight: bold;
 }

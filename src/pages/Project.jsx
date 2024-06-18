@@ -13,7 +13,7 @@ const Project = () => {
   }
 
   return (
-    <section className='project-details-section projects-container'>
+    <section className='projects-container project-details-section'>
       <ProjectDetails project={project} />
     </section>
   )

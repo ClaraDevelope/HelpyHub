@@ -1,5 +1,6 @@
 import React from 'react'
 import './ProjectDetails.css'
+import DefinedSearchBar from '../definedSearchBar/DefinedSearchBar'
 
 const ProjectDetails = ({ project }) => {
   return (
@@ -9,17 +10,7 @@ const ProjectDetails = ({ project }) => {
         <img src={project.img} alt={project.nombreCampaña} />
       </div>
       <p>{project.resumenProyecto}</p>
-      <div className='search-container'>
-        <span> ¿Quieres saber más sobre esta realidad?</span>
-        <input type='text' placeholder={project.nombreCampaña}></input>
-        <button className='search-button' type='submit'>
-          <img
-            src='images/search-icon.jpg'
-            className='search-image'
-            alt='buscar'
-          />
-        </button>
-      </div>
+      <DefinedSearchBar value={project.nombreCampaña} />
     </div>
   )
 }

@@ -26,7 +26,6 @@ presencial / aportación económica
 Creación del formulario de registro:
 
 Diseñar e implementar un formulario de registro donde los usuarios puedan ingresar su nombre completo, correo electrónico y otras informaciones relevantes.
-Validar los datos ingresados por los usuarios para garantizar la integridad de la información.
 Desarrollo del sistema de búsqueda de proyectos:
 
 Crear una página o componente dedicado a la búsqueda de proyectos.
