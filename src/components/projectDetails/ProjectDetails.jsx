@@ -10,10 +10,9 @@ const ProjectDetails = ({ project }) => {
       <div className='image-project-ontainer'>
         <img src={project.img} alt={project.nombreCampaña} />
       </div>
-
       <p>{project.resumenProyecto}</p>
-      <Reactions />
       <DefinedSearchBar value={project.nombreCampaña} />
+      <Reactions />
     </div>
   )
 }

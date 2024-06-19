@@ -52,7 +52,7 @@
 
 .newsletter button {
   padding: 8px 20px;
-  background-color: #007bff;
+  background-color: var(--color-button-background-2);
   color: var(--color-text-terciary);
   font-weight: 500;
   border: none;

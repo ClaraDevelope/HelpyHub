@@ -1,10 +1,9 @@
 // https://www.guiaongs.org/directorio/
 // change.org
 // hacesfalta.org
-import { v4 as uuidv4 } from 'uuid'
 export const PROJECTS = [
   {
-    id: uuidv4(),
+    id: '62aaa10f-9990-4209-b73c-43616d44d58b',
     nombreCampaña: 'Emergencia en Gaza',
     nombreEntidad: 'UNRWA',
     resumenProyecto:
@@ -23,7 +22,7 @@ export const PROJECTS = [
     // img: 'https://i.pinimg.com/564x/59/03/27/5903279462acb00dca3cb2a96f81a074.jpg'
   },
   {
-    id: uuidv4(),
+    id: '3e330e0d-a814-471f-873b-e89bd11e72d4',
     nombreCampaña: 'BDS',
     nombreEntidad: 'RESCOP',
     resumenProyecto:
@@ -41,7 +40,7 @@ export const PROJECTS = [
     img: 'https://bdsmovement.net/sites/default/files/bds-logo-card.jpg'
   },
   {
-    id: uuidv4(),
+    id: '29a31874-a33a-43fb-9a5d-84cf68243468',
     nombreCampaña: 'Emergencia en la República Democrática del Congo',
     nombreEntidad: 'ACNUR',
     resumenProyecto:
@@ -59,7 +58,7 @@ export const PROJECTS = [
     img: 'https://www.acnur.org/sites/default/files/legacy-images/5d39c6463.jpg'
   },
   {
-    id: uuidv4(),
+    id: 'c20136a6-5e3b-4b6d-aadf-ff13ef2381d4',
     nombreCampaña: 'Adopta Un Abuelo',
     nombreEntidad: 'Adopta Un Abuelo',
     resumenProyecto:
@@ -72,7 +71,7 @@ export const PROJECTS = [
     img: 'https://adoptaunabuelo.org/wp-content/uploads/2023/02/enriqueta.webp'
   },
   {
-    id: uuidv4(),
+    id: '7e59c2dc-b84b-455f-ae69-295b72025850',
     nombreCampaña: 'Nombre de la Campaña 2',
     nombreEntidad: 'Nombre de la Entidad 2',
     resumenProyecto: 'Resumen o explicación del Proyecto 2',
@@ -84,7 +83,7 @@ export const PROJECTS = [
     img: 'https://i.pinimg.com/564x/86/0c/7a/860c7a25a46f8a3360e25c3413f3f0c7.jpg'
   },
   {
-    id: uuidv4(),
+    id: '9e169896-1fa8-4d88-8c62-bc5732b42b9e',
     nombreCampaña: 'Nombre de la Campaña 3',
     nombreEntidad: 'Nombre de la Entidad 3',
     resumenProyecto: 'Resumen o explicación del Proyecto 3',
@@ -96,7 +95,7 @@ export const PROJECTS = [
     img: 'https://i.pinimg.com/564x/86/0c/7a/860c7a25a46f8a3360e25c3413f3f0c7.jpg'
   },
   {
-    id: uuidv4(),
+    id: '68facab7-da31-4155-9fec-454c97d73a46',
     nombreCampaña: 'Nombre de la Campaña 1',
     nombreEntidad: 'Nombre de la Entidad 1',
     resumenProyecto: 'Resumen o explicación del Proyecto 1',
@@ -108,7 +107,7 @@ export const PROJECTS = [
     img: 'https://i.pinimg.com/564x/86/0c/7a/860c7a25a46f8a3360e25c3413f3f0c7.jpg'
   },
   {
-    id: uuidv4(),
+    id: 'fe608a39-697a-4f9f-a0ed-61383da1cf2f',
     nombreCampaña: 'Nombre de la Campaña 2',
     nombreEntidad: 'Nombre de la Entidad 2',
     resumenProyecto: 'Resumen o explicación del Proyecto 2',
@@ -120,7 +119,7 @@ export const PROJECTS = [
     img: 'https://i.pinimg.com/564x/86/0c/7a/860c7a25a46f8a3360e25c3413f3f0c7.jpg'
   },
   {
-    id: uuidv4(),
+    id: '8509d19b-85a1-45d1-aaa7-d6b458071fe9',
     nombreCampaña: 'Nombre de la Campaña 3',
     nombreEntidad: 'Nombre de la Entidad 3',
     resumenProyecto: 'Resumen o explicación del Proyecto 3',
@@ -132,7 +131,7 @@ export const PROJECTS = [
     img: 'https://i.pinimg.com/564x/86/0c/7a/860c7a25a46f8a3360e25c3413f3f0c7.jpg'
   },
   {
-    id: uuidv4(),
+    id: '4c78960d-f665-4af0-8a25-c1feaf26d456',
     nombreCampaña: 'Nombre de la Campaña 1',
     nombreEntidad: 'Nombre de la Entidad 1',
     resumenProyecto: 'Resumen o explicación del Proyecto 1',
@@ -144,7 +143,7 @@ export const PROJECTS = [
     img: 'https://i.pinimg.com/564x/86/0c/7a/860c7a25a46f8a3360e25c3413f3f0c7.jpg'
   },
   {
-    id: uuidv4(),
+    id: '8667f09b-4cc3-40f4-a3ce-6009b9b8b96c',
     nombreCampaña: 'Nombre de la Campaña 2',
     nombreEntidad: 'Nombre de la Entidad 2',
     resumenProyecto: 'Resumen o explicación del Proyecto 2',
@@ -156,7 +155,7 @@ export const PROJECTS = [
     img: 'https://i.pinimg.com/564x/86/0c/7a/860c7a25a46f8a3360e25c3413f3f0c7.jpg'
   },
   {
-    id: uuidv4(),
+    id: 'd2bf2b99-b6d8-4996-911f-7757615b9313',
     nombreCampaña: 'Nombre de la Campaña 3',
     nombreEntidad: 'Nombre de la Entidad 3',
     resumenProyecto: 'Resumen o explicación del Proyecto 3',
@@ -168,7 +167,7 @@ export const PROJECTS = [
     img: 'https://i.pinimg.com/564x/86/0c/7a/860c7a25a46f8a3360e25c3413f3f0c7.jpg'
   },
   {
-    id: uuidv4(),
+    id: '9adfb5dd-1f42-4eec-a9fe-88f0676723f1',
     nombreCampaña: 'Nombre de la Campaña 1',
     nombreEntidad: 'Nombre de la Entidad 1',
     resumenProyecto: 'Resumen o explicación del Proyecto 1',
@@ -180,7 +179,7 @@ export const PROJECTS = [
     img: 'https://i.pinimg.com/564x/86/0c/7a/860c7a25a46f8a3360e25c3413f3f0c7.jpg'
   },
   {
-    id: uuidv4(),
+    id: '2d1dafdb-5ffb-4f6c-89c8-f7e9165e32b5',
     nombreCampaña: 'Nombre de la Campaña 2',
     nombreEntidad: 'Nombre de la Entidad 2',
     resumenProyecto: 'Resumen o explicación del Proyecto 2',
@@ -192,7 +191,7 @@ export const PROJECTS = [
     img: 'https://i.pinimg.com/564x/86/0c/7a/860c7a25a46f8a3360e25c3413f3f0c7.jpg'
   },
   {
-    id: uuidv4(),
+    id: '8a6ac874-1b90-41f2-83c5-f59412fcf41e',
     nombreCampaña: 'Nombre de la Campaña 3',
     nombreEntidad: 'Nombre de la Entidad 3',
     resumenProyecto: 'Resumen o explicación del Proyecto 3',
@@ -204,7 +203,7 @@ export const PROJECTS = [
     img: 'https://i.pinimg.com/564x/86/0c/7a/860c7a25a46f8a3360e25c3413f3f0c7.jpg'
   },
   {
-    id: uuidv4(),
+    id: '2752e993-59a8-4110-a69b-d57fbf0fcc94',
     nombreCampaña: 'Nombre de la Campaña 1',
     nombreEntidad: 'Nombre de la Entidad 1',
     resumenProyecto: 'Resumen o explicación del Proyecto 1',
@@ -216,7 +215,7 @@ export const PROJECTS = [
     img: 'https://i.pinimg.com/564x/86/0c/7a/860c7a25a46f8a3360e25c3413f3f0c7.jpg'
   },
   {
-    id: uuidv4(),
+    id: 'eeeb35a6-1f54-43fa-84e5-1f648700326d',
     nombreCampaña: 'Nombre de la Campaña 2',
     nombreEntidad: 'Nombre de la Entidad 2',
     resumenProyecto: 'Resumen o explicación del Proyecto 2',
@@ -228,7 +227,7 @@ export const PROJECTS = [
     img: 'https://i.pinimg.com/564x/86/0c/7a/860c7a25a46f8a3360e25c3413f3f0c7.jpg'
   },
   {
-    id: uuidv4(),
+    id: '6b6dc3c1-2b86-44e9-854c-f658494c7271',
     nombreCampaña: 'Nombre de la Campaña 3',
     nombreEntidad: 'Nombre de la Entidad 3',
     resumenProyecto: 'Resumen o explicación del Proyecto 3',

@@ -9,6 +9,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  border-bottom: 1.5px solid var(--color-text);
 }
 
 .search-to-google > button {
