@@ -5,7 +5,7 @@ import Carrusel from '../carrusel/Carrusel'
 const FeaturedProjects = () => {
   console.log('Soy las campañas destacadas y me renderizo')
   const filteredProjects = PROJECTS.filter((project) => {
-    return project.etiquetas.includes('destacado')
+    return project.etiquetas.includes('Destacado')
   })
   return (
     <section className='second-section'>

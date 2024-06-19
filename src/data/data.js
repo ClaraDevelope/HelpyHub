@@ -9,10 +9,10 @@ export const PROJECTS = [
     resumenProyecto:
       'Israel está llevando a cabo un genocidio contra el pueblo palestino mediante una campaña sistemática de violencia, ocupación y opresión. La masacre de civiles, incluidos niños, a través de bombardeos indiscriminados y ataques militares, el bloqueo brutal de Gaza que impide el acceso a alimentos, medicinas y otros recursos esenciales, y la continua expansión de asentamientos ilegales que despojan a los palestinos de sus hogares y tierras, son parte de esta cruel política de exterminio. Estas acciones representan una clara violación de los derechos humanos y un intento deliberado de borrar la identidad y existencia del pueblo palestino. ¡Elegir nos hace libres. Por eso en UNRWA llevamos 70 años trabajando para que los refugiados de Palestina puedan decidir su propio destino, sin que nadie les ocupe, les ataque y les niegue sus derechos! Afortunadamente, tú eres libre de decidir entre no dar apoyo, o ayudarnos a mantener la dignidad a la población refugiada de Palestina.',
     etiquetas: [
-      'derechos humanos',
-      'ayuda humanitaria',
-      'emergencia',
-      'destacado'
+      'Derechos Humanos',
+      'Ayuda Humanitaria',
+      'Emergencia',
+      'Destacado'
     ],
     presencial: true,
     online: true,
@@ -28,10 +28,10 @@ export const PROJECTS = [
     resumenProyecto:
       'Llevamos casi un año viviendo un genocidio en directo contra el pueblo palestino, con ataques militares indiscriminados que han causado la muerte de miles de civiles y la destrucción de hogares e infraestructuras esenciales en Gaza y Cisjordania. Los responsables de estos crímenes siguen impunes, mientras la comunidad internacional, incluyendo algunos gobiernos europeos, no respeta los acuerdos y leyes internacionales que deberían proteger a los palestinos. Las violaciones sistemáticas de derechos humanos y las continuas agresiones no encuentran freno ni justicia en los tribunales internacionales. En respuesta a esta situación, la campaña de Boicot, Sanciones y Desinversión (BDS) es una iniciativa global liderada por la sociedad civil palestina desde 2005. Consiste en: Boicot: Evitar el consumo de productos y servicios israelíes, así como la participación en eventos culturales y académicos patrocinados por el Estado de Israel. Sanciones: Presionar a los gobiernos y organizaciones internacionales para que impongan sanciones diplomáticas, económicas y militares contra Israel.  Desinversión: Incentivar a instituciones y empresas a retirar sus inversiones de compañías que apoyan o se benefician de la ocupación israelí y la violación de derechos humanos. El objetivo del BDS es obligar a Israel a cumplir con el derecho internacional, poner fin a la ocupación y colonización de todas las tierras árabes, garantizar el derecho de retorno de los refugiados palestinos y reconocer los derechos fundamentales de los ciudadanos árabes-palestinos de Israel.',
     etiquetas: [
-      'derechos humanos',
-      'ayuda humanitaria',
-      'emergencia',
-      'destacado'
+      'Derechos Humanos',
+      'Ayuda Humanitaria',
+      'Emergencia',
+      'Destacado'
     ],
     presencial: true,
     online: true,
@@ -46,10 +46,10 @@ export const PROJECTS = [
     resumenProyecto:
       'En 2024, como resultado de la prevalente inseguridad y del alarmante resurgimiento de la violencia perpetrada por grupos armados irregulares en los últimos dos años, casi seis millones de personas han sido desplazadas en las provincias de Ituri, Kivu del Norte, Kivu del Sur y Tanganyika. Día con día se deterioran las condiciones de vida de las personas desplazadas en la República Democrática del Congo, pues, al agotarse los recursos, muchas de ellas necesitan asistencia humanitaria para satisfacer las necesidades más apremiantes.',
     etiquetas: [
-      'derechos humanos',
-      'ayuda humanitaria',
-      'emergencia',
-      'destacado'
+      'Derechos Humanos',
+      'Ayuda Humanitaria',
+      'Emergencia',
+      'Destacado'
     ],
     presencial: false,
     online: true,
@@ -63,7 +63,7 @@ export const PROJECTS = [
     nombreEntidad: 'Adopta Un Abuelo',
     resumenProyecto:
       'Acompaña y haz felices a mayores que te necesitan. Adopta un abuelo y visítale o llámale cada semana. Puedes elegir hacerlo online o presencial en la residencia que prefieras, contamos con más de 300.',
-    etiquetas: ['destacado', 'intergeneracional', 'voluntariado'],
+    etiquetas: ['Destacado', 'Intergeneracional', 'Voluntariado'],
     presencial: true,
     online: true,
     lugarDesarrollo: 'Cualquiera',

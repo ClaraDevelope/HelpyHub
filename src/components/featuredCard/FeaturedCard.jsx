@@ -2,7 +2,7 @@ import React from 'react'
 import './FeaturedCard.css'
 import { NavLink } from 'react-router-dom'
 
-const featuredCard = ({ project }) => {
+const FeaturedCard = ({ project }) => {
   // console.log(project)
   return (
     <NavLink to={`/project/${project.id}`}>
@@ -16,4 +16,4 @@ const featuredCard = ({ project }) => {
   )
 }
 
-export default featuredCard
+export default FeaturedCard
