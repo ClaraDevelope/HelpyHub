@@ -18,7 +18,7 @@
   --br-xl: 50%;
 }
 #root {
-  /* min-height: 100vh; */
+  /* min-height: 200vh; */
   background-image: url('https://www.transparenttextures.com/patterns/grunge-wall.png');
 }
 body,
