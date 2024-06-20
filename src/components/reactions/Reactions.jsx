@@ -1,10 +1,34 @@
-import React from 'react'
+import React, { useEffect, useRef, useState } from 'react'
 import './Reactions.css'
 const Reactions = () => {
+  const likeButton = useRef(null)
+  const [isActive, setIsActive] = useState(false)
+
+  const likeClick = (e) => {
+    e.preventDefault()
+    setIsActive((prev) => !prev)
+  }
+
+  useEffect(() => {
+    if (likeButton.current) {
+      const parentLi = likeButton.current.closest('.item-reaction')
+      if (isActive) {
+        parentLi.classList.add('clicked-like')
+      } else {
+        parentLi.classList.remove('clicked-like')
+      }
+    }
+  }, [isActive])
+
   return (
     <ul className='reactions'>
       <li className='item-reaction'>
-        <button className='button-reaction'>
+        <button
+          className='button-reaction'
+          onClick={likeClick}
+          ref={likeButton}
+          value='like'
+        >
           <img src='/images/heart.webp' alt='like' />
           <span>Me gusta</span>
         </button>

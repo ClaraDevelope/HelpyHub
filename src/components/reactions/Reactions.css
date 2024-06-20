@@ -26,7 +26,9 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  padding: 2px;
   gap: 5px;
+  border-radius: 8px;
 }
 
 .button-reaction > img {
@@ -37,4 +39,11 @@
 
 .item-reaction:hover {
   background-color: var(--color-checkbox-2);
+}
+.clicked-like {
+  background-color: rgba(253, 0, 0, 0.895);
+  .button-reaction {
+    color: #eae4e4;
+    -webkit-text-stroke: 0.2px #eae4e4;
+  }
 }
