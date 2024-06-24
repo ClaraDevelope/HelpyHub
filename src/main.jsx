@@ -9,26 +9,29 @@ import AllProjects from './pages/AllProjects.jsx'
 import NotFound from './pages/404.jsx'
 import SearchFormPage from './pages/SearchFormPage.jsx'
 import { PROJECTS } from './data/data.js'
+import CommentsProvider from './hooks/react/CommentsProvider'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
     <BrowserRouter basename='/'>
-      <Routes>
-        <Route path='/' element={<App />}>
-          <Route index element={<Home />} />
-          <Route path='/form-search-project' element={<SearchFormPage />} />
-          <Route
-            path='/projects'
-            element={<AllProjects projects={PROJECTS} />}
-          />
-          <Route
-            path='/projects/search/:searchValue'
-            element={<AllProjects />}
-          />
-          <Route path='/project/:id' element={<Project />} />
-          <Route path='*' element={<NotFound />} />
-        </Route>
-      </Routes>
+      <CommentsProvider>
+        <Routes>
+          <Route path='/' element={<App />}>
+            <Route index element={<Home />} />
+            <Route path='/form-search-project' element={<SearchFormPage />} />
+            <Route
+              path='/projects'
+              element={<AllProjects projects={PROJECTS} />}
+            />
+            <Route
+              path='/projects/search/:searchValue'
+              element={<AllProjects />}
+            />
+            <Route path='/project/:id' element={<Project />} />
+            <Route path='*' element={<NotFound />} />
+          </Route>
+        </Routes>
+      </CommentsProvider>
     </BrowserRouter>
   </React.StrictMode>
 )

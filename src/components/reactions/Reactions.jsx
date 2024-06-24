@@ -1,12 +1,20 @@
-import React, { useEffect, useRef, useState } from 'react'
+import React, { useContext, useEffect, useRef, useState } from 'react'
 import './Reactions.css'
+import { CommentsContext } from '../../hooks/react/CommentsProvider'
+
 const Reactions = () => {
   const likeButton = useRef(null)
   const [isActive, setIsActive] = useState(false)
+  const { toggleCommentsVisible } = useContext(CommentsContext)
 
   const likeClick = (e) => {
     e.preventDefault()
     setIsActive((prev) => !prev)
+  }
+
+  const commentClick = (e) => {
+    e.preventDefault()
+    toggleCommentsVisible()
   }
 
   useEffect(() => {
@@ -34,7 +42,7 @@ const Reactions = () => {
         </button>
       </li>
       <li className='item-reaction'>
-        <button className='button-reaction'>
+        <button className='button-reaction' onClick={commentClick}>
           <img src='/images/comment-2.webp' alt='comment' />
           <span>Comentar</span>
         </button>
