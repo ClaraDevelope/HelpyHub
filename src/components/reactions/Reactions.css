@@ -38,7 +38,7 @@
 }
 
 .item-reaction:hover {
-  background-color: var(--color-checkbox-2);
+  background-color: var(--color-light-gray);
 }
 .clicked-like {
   background-color: rgba(253, 0, 0, 0.895);

@@ -4,6 +4,7 @@ import DefinedSearchBar from '../definedSearchBar/DefinedSearchBar'
 import Reactions from '../reactions/Reactions'
 import Comments from '../comments/Comments'
 import CommentsProvider from '../../hooks/react/CommentsProvider'
+import MoreDetails from '../moreDetails/MoreDetails'
 
 const ProjectDetails = ({ project }) => {
   return (
@@ -14,6 +15,7 @@ const ProjectDetails = ({ project }) => {
           <img src={project.img} alt={project.nombreCampaña} />
         </div>
         <p>{project.resumenProyecto}</p>
+        <MoreDetails presencial={project.presencial} online={project.online} />
         <DefinedSearchBar value={project.nombreCampaña} />
         <Reactions />
         <Comments />

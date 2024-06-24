@@ -7,7 +7,7 @@ const SearchFormPage = () => {
     <>
       <Titles
         title={'¡Únete a alguno de nuestros proyectos!'}
-        subtitle={'Encuentra el proyecto perfecto para tí'}
+        subtitle={'Suscríbete a nuestro boletín y encuentra tu proyecto'}
       />
       <Form />
     </>

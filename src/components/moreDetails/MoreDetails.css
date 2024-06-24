@@ -1,0 +1,19 @@
+.type-container {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+.type {
+  padding: 8px;
+  border-radius: 4px;
+  /* background-color: var(--color-button-background-2); */
+  /* background-color: var(--color-checkbox-3); */
+  background-color: var(--color-checkbox-2);
+  /* color: var(--color-white); */
+  color: var(--color-text-secondary);
+  font-weight: bold;
+  outline: 1px solid var(--color-text-secondary);
+}
