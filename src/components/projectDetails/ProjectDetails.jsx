@@ -15,7 +15,12 @@ const ProjectDetails = ({ project }) => {
           <img src={project.img} alt={project.nombreCampaña} />
         </div>
         <p>{project.resumenProyecto}</p>
-        <MoreDetails presencial={project.presencial} online={project.online} />
+        <MoreDetails
+          presencial={project.presencial}
+          online={project.online}
+          entity={project.nombreEntidad}
+          web={project.web}
+        />
         <DefinedSearchBar value={project.nombreCampaña} />
         <Reactions />
         <Comments />

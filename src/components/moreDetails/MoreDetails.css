@@ -1,3 +1,9 @@
+.more-info {
+  width: 100%;
+  max-width: 650px;
+  padding: 10px;
+  /* margin: 20px; */
+}
 .type-container {
   width: 100%;
   display: flex;
@@ -16,4 +22,13 @@
   color: var(--color-text-secondary);
   font-weight: bold;
   outline: 1px solid var(--color-text-secondary);
+}
+.social-entity {
+  padding-bottom: 35px;
+  padding-left: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  gap: 10px;
+  flex-direction: column;
 }

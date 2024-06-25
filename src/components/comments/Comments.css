@@ -27,7 +27,7 @@
   position: relative;
 }
 .item-comment::before {
-  border: 25px solid white;
+  border: 30px solid white;
   content: '';
   border-left-color: transparent;
   border-bottom-color: transparent;
