@@ -37,5 +37,6 @@
   max-width: 650px;
   font-size: 18px;
   color: var(--color-text-secondary);
+  padding: 20px;
   margin-bottom: 20px;
 }
