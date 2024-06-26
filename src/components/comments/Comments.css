@@ -27,14 +27,14 @@
   position: relative;
 }
 .item-comment::before {
-  border: 30px solid white;
+  border: 15px solid white;
   content: '';
   border-left-color: transparent;
   border-bottom-color: transparent;
   border-right-color: transparent;
   position: absolute;
-  bottom: -38px;
-  left: calc(50% - 15px);
+  bottom: -25px;
+  left: calc(50% + 15px);
 }
 .item-comment > img {
   width: 40px;
