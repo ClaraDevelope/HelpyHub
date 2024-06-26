@@ -130,7 +130,7 @@ const Form = () => {
             />
           </label>
           <label className='help-form-label'>
-            ¿Desea desgravar su donación en la declaración de la renta?
+            ¿Va a desear desgravar su donación?
             <input
               type='checkbox'
               checked={state.taxDeductible}

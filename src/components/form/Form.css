@@ -74,6 +74,10 @@ input[type='checkbox'] {
   margin: 10px;
   accent-color: var(--color-checkbox);
 }
+input[type='checkbox']:focus {
+  outline: none;
+}
+
 .help-form-label > select {
   margin-left: 10px;
 }
