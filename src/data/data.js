@@ -84,7 +84,7 @@ export const PROJECTS = [
     online: true,
     lugarDesarrollo: 'Cualquiera',
     web: 'https://www.medicosdelmundo.org/donacion-ong/campana/personas-refugiadas/',
-    img: 'https://scontent.fmad7-1.fna.fbcdn.net/v/t1.6435-9/164647304_2825176941032618_1246846477870169913_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=7b2446&_nc_eui2=AeEJO-fOXeMMiVVKhrv3v23FThN1lI7TkFVOE3WUjtOQVRlrEXk_DC-z0R31VCqsCLA&_nc_ohc=jxHW0JVix9gQ7kNvgHK3phH&_nc_ht=scontent.fmad7-1.fna&oh=00_AYA0WR7AMgKsVVrjh5bft391cf2cRfFH5V7kQX-3HnmJIw&oe=66A31B68'
+    img: 'https://scout.es/wp-content/uploads/2024/06/Personas-Refugiadas-2024_OK.jpg'
   },
   {
     id: 'fe608a39-697a-4f9f-a0ed-61383da1cf2f',
